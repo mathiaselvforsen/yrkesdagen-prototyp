@@ -10,31 +10,33 @@
 </head>
 
 <body>
+<div id="question-screen" role="region" aria-labelledby="question-heading">
   <div id="top-banner">
     <p>Yrkesdagen</p>
   </div>
-  <div id="content-container">
-    <div id="top-content">
-      <div id="top-left">
-        <p>vänster</p>
-      </div>
 
-      <div id="top-right">
-        <p>höger</p>
-      </div>
+  <section id="question-container">
+    <div class="question-area">
+      <h2 id="question-heading">FRÅGA:</h2>
+      <p id="question-text">Här står det en fråga</p>
+    </div>
 
+    <div class="image-area" aria-label="Frågebild">
+      <img src="bild.jpg" alt="Beskrivande bild till frågan" />
     </div>
-    <div id="answers-container">
-      <div class="answer-box" id="answer1">svar 1</div>
-      <div class="answer-box" id="answer2">svar 2</div>
-      <div class="answer-box" id="answer3">svar 3</div>
-      <div class="answer-box" id="answer4">svar 4</div>
+
+    <div class="answers-grid">
+      <button class="answer-button">SVAR</button>
+      <button class="answer-button">SVAR</button>
+      <button class="answer-button">SVAR</button>
+      <button class="answer-button">SVAR</button>
     </div>
+  </section>
+
+  <div id="bot-banner">
+    <p>Region Kronoberg</p>
   </div>
-  <!-- <div id="bot-banner">
-    <p>Region kronoberg</p>
-  </div> -->
-
+</div>
 
 </body>
 
